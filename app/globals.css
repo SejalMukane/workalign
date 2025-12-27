@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #361a1a;
 }
 
 @theme inline {
@@ -12,15 +12,81 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2b2020;
+    --foreground: #f58888;
   }
 }
 
+.glass-card {
+  @apply bg-white/40 backdrop-blur-xl border border-white/30 rounded-3xl shadow-xl p-8 hover:shadow-2xl hover:scale-[1.01] transition;
+}
+
 body {
-  background: var(--background);
+  background: rgb(238, 238, 213);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* app/globals.css */
+
+@layer utilities {
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0; /* Start hidden */
+  }
+  
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+/* Add to globals.css */
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-scroll {
+    animation: scroll 20s linear infinite;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotate(var(--tw-rotate)); }
+  50% { transform: translateY(-20px) rotate(var(--tw-rotate)); }
+  100% { transform: translateY(0px) rotate(var(--tw-rotate)); }
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }

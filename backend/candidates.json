@@ -1,0 +1,518 @@
+[
+  {
+    "name": "Aarav Sharma",
+    "skills": ["React", "Node.js", "MongoDB", "JavaScript"],
+    "summary": "Frontend developer specializing in React and UI development.",
+    "experience": 2
+  },
+  {
+    "name": "Riya Mehta",
+    "skills": ["Python", "Machine Learning", "Pandas", "FastAPI"],
+    "summary": "ML engineer experienced in model training and APIs.",
+    "experience": 1
+  },
+  {
+    "name": "Sejal Mukane",
+    "skills": ["Next.js", "React.js", "Machine Learning", "FastAPI", "Python"],
+    "summary": "Full-stack + ML developer building LLM and SaaS systems.",
+    "experience": 1
+  },
+  {
+    "name": "Abhay Padgaonkar",
+    "skills": ["Python", "Deep Learning", "AI", "Node.js"],
+    "summary": "AI/ML engineer focusing on deep learning and intelligent apps.",
+    "experience": 1
+  },
+  {
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "skills": ["React", "Node.js", "MongoDB", "JavaScript"],
+    "experience": 2,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Frontend Developer",
+    "location": "Mumbai",
+    "summary": "Frontend developer with strong React and UI building experience."
+  },
+  {
+    "name": "Riya Mehta",
+    "email": "riya.mehta@example.com",
+    "skills": ["Python", "Machine Learning", "FastAPI", "Pandas"],
+    "experience": 1,
+    "education": "B.Sc Data Science",
+    "current_role": "ML Engineer Intern",
+    "location": "Pune",
+    "summary": "ML enthusiast skilled in model training and FastAPI deployment."
+  },
+  {
+    "name": "Siddharth Verma",
+    "email": "siddharth.verma@example.com",
+    "skills": ["Java", "Spring Boot", "MySQL"],
+    "experience": 3,
+    "education": "B.Tech IT",
+    "current_role": "Backend Developer",
+    "location": "Bangalore",
+    "summary": "Backend engineer experienced in distributed systems and APIs."
+  },
+  {
+    "name": "Neha Patil",
+    "email": "neha.patil@example.com",
+    "skills": ["Data Analysis", "PowerBI", "SQL"],
+    "experience": 2,
+    "education": "MBA Business Analytics",
+    "current_role": "Data Analyst",
+    "location": "Nashik",
+    "summary": "Analyst with strong data visualization and dashboarding skills."
+  },
+  {
+    "name": "Aditya Rao",
+    "email": "aditya.rao@example.com",
+    "skills": ["Flutter", "Dart", "Firebase"],
+    "experience": 1,
+    "education": "B.Tech CSE",
+    "current_role": "Mobile App Developer",
+    "location": "Hyderabad",
+    "summary": "Passionate Flutter developer building scalable mobile apps."
+  },
+  {
+    "name": "Sara Khan",
+    "email": "sara.khan@example.com",
+    "skills": ["UI/UX", "Figma", "Prototyping"],
+    "experience": 2,
+    "education": "B.Des",
+    "current_role": "UI/UX Designer",
+    "location": "Delhi",
+    "summary": "Designer focused on modern interfaces and user experience."
+  },
+  {
+    "name": "Vikram Singh",
+    "email": "vikram.singh@example.com",
+    "skills": ["AWS", "Docker", "Kubernetes", "DevOps"],
+    "experience": 4,
+    "education": "B.Tech Electronics",
+    "current_role": "DevOps Engineer",
+    "location": "Chennai",
+    "summary": "Experienced DevOps engineer with CI/CD and cloud automation skills."
+  },
+  {
+    "name": "Meera Joshi",
+    "email": "meera.joshi@example.com",
+    "skills": ["Node.js", "Express", "PostgreSQL"],
+    "experience": 3,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Backend Developer",
+    "location": "Mumbai",
+    "summary": "Backend developer with strong API and SQL database expertise."
+  },
+  {
+    "name": "Karan Deshmukh",
+    "email": "karan.deshmukh@example.com",
+    "skills": ["JavaScript", "Next.js", "Tailwind"],
+    "experience": 1,
+    "education": "B.Sc Computer Science",
+    "current_role": "Frontend Intern",
+    "location": "Pune",
+    "summary": "React/Next.js developer passionate about UI and performance."
+  },
+  {
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "skills": ["SQL", "ETL", "Data Warehousing"],
+    "experience": 4,
+    "education": "MCA",
+    "current_role": "BI Engineer",
+    "location": "Kochi",
+    "summary": "Experienced in ETL pipelines, warehousing, and analytics."
+  },
+  {
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta@example.com",
+    "skills": ["Python", "Django", "REST APIs"],
+    "experience": 2,
+    "education": "B.Tech IT",
+    "current_role": "Python Developer",
+    "location": "Noida",
+    "summary": "Backend developer with strong Django & API-building experience."
+  },
+  {
+    "name": "Ishita Agarwal",
+    "email": "ishita.agarwal@example.com",
+    "skills": ["AI", "NLP", "LangChain", "LLMs"],
+    "experience": 1,
+    "education": "B.Tech CSE (AI/ML)",
+    "current_role": "AI Engineer Intern",
+    "location": "Bangalore",
+    "summary": "Working on LLMs, embeddings, and NLP-driven applications."
+  },
+  {
+    "name": "Yash Jain",
+    "email": "yash.jain@example.com",
+    "skills": ["Cybersecurity", "Networking", "Penetration Testing"],
+    "experience": 3,
+    "education": "B.Tech CE",
+    "current_role": "Security Analyst",
+    "location": "Ahmedabad",
+    "summary": "Experienced in security audits and vulnerability assessments."
+  },
+  {
+    "name": "Simran Kaur",
+    "email": "simran.kaur@example.com",
+    "skills": ["HR Analytics", "Recruitment", "Excel"],
+    "experience": 2,
+    "education": "MBA HR",
+    "current_role": "HR Associate",
+    "location": "Delhi",
+    "summary": "HR professional focusing on data-driven recruitment insights."
+  },
+  {
+    "name": "Nikhil Shetty",
+    "email": "nikhil.shetty@example.com",
+    "skills": ["C++", "DSA", "Algorithms"],
+    "experience": 1,
+    "education": "B.Tech CE",
+    "current_role": "SDE Intern",
+    "location": "Mumbai",
+    "summary": "Strong in algorithms, competitive coding, and system design basics."
+  },
+  {
+    "name": "Ananya Iyer",
+    "email": "ananya.iyer@example.com",
+    "skills": ["TensorFlow", "Deep Learning", "Python"],
+    "experience": 2,
+    "education": "M.Sc AI",
+    "current_role": "Deep Learning Engineer",
+    "location": "Chennai",
+    "summary": "Works on neural networks, training pipelines and research models."
+  },
+  {
+    "name": "Harsh Thakur",
+    "email": "harsh.thakur@example.com",
+    "skills": ["React", "Redux", "TypeScript"],
+    "experience": 3,
+    "education": "B.Tech CSE",
+    "current_role": "Frontend Developer",
+    "location": "Pune",
+    "summary": "Experienced frontend dev building scalable dashboards."
+  },
+  {
+    "name": "Avni Shah",
+    "email": "avni.shah@example.com",
+    "skills": ["MongoDB", "Mongoose", "Node.js"],
+    "experience": 2,
+    "education": "B.Sc CS",
+    "current_role": "Full Stack Developer",
+    "location": "Surat",
+    "summary": "Experienced with MERN stack and API integrations."
+  },
+  {
+    "name": "Kabir Malhotra",
+    "email": "kabir.malhotra@example.com",
+    "skills": ["Cloud Computing", "Azure", "Linux"],
+    "experience": 4,
+    "education": "B.Tech IT",
+    "current_role": "Cloud Engineer",
+    "location": "Hyderabad",
+    "summary": "Implements cloud deployments and manages enterprise infra."
+  },
+  {
+    "name": "Shruti Rao",
+    "email": "shruti.rao@example.com",
+    "skills": ["Python", "OpenCV", "Machine Learning"],
+    "experience": 1,
+    "education": "B.E AI & DS",
+    "current_role": "Computer Vision Intern",
+    "location": "Mumbai",
+    "summary": "Building ML pipelines for image recognition applications."
+  },
+  {
+    "name": "Kabir Verma",
+    "email": "kabir.verma@example.com",
+    "skills": ["React", "Node.js", "Express", "MongoDB"],
+    "experience": 3,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "MERN Developer",
+    "location": "Pune",
+    "summary": "Full-stack MERN developer building scalable and modern web apps."
+  },
+  {
+    "name": "Aisha Khan",
+    "email": "aisha.khan@example.com",
+    "skills": ["Python", "TensorFlow", "Pandas", "NumPy"],
+    "experience": 2,
+    "education": "B.Sc Data Science",
+    "current_role": "Machine Learning Engineer",
+    "location": "Mumbai",
+    "summary": "ML engineer building deep learning and prediction models."
+  },
+  {
+    "name": "Rohan Desai",
+    "email": "rohan.desai@example.com",
+    "skills": ["Node.js", "FastAPI", "Docker", "MySQL"],
+    "experience": 4,
+    "education": "B.Tech Information Technology",
+    "current_role": "Backend Developer",
+    "location": "Ahmedabad",
+    "summary": "Backend engineer experienced in scalable APIs and cloud deployments."
+  },
+  {
+    "name": "Sanya Patil",
+    "email": "sanya.patil@example.com",
+    "skills": ["Python", "SQL", "PowerBI", "Excel"],
+    "experience": 1,
+    "education": "B.Com Data Analytics",
+    "current_role": "Data Analyst",
+    "location": "Mumbai",
+    "summary": "Data analyst skilled in visualization and business insights."
+  },
+  {
+    "name": "Devang Trivedi",
+    "email": "devang.trivedi@example.com",
+    "skills": ["Deep Learning", "PyTorch", "Transformers", "Python"],
+    "experience": 3,
+    "education": "B.Tech AI & ML",
+    "current_role": "AI Engineer",
+    "location": "Bangalore",
+    "summary": "AI engineer specializing in generative AI and vision systems."
+  },
+  {
+    "name": "Myra Chawla",
+    "email": "myra.chawla@example.com",
+    "skills": ["React", "Next.js", "TailwindCSS", "JavaScript"],
+    "experience": 2,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Frontend Developer",
+    "location": "Delhi",
+    "summary": "Frontend engineer focused on modern UI and responsive interfaces."
+  },
+  {
+    "name": "Ishaan Kulkarni",
+    "email": "ishaan.kulkarni@example.com",
+    "skills": ["AWS", "Terraform", "EC2", "Docker"],
+    "experience": 2,
+    "education": "B.Tech Cloud Computing",
+    "current_role": "Cloud Engineer",
+    "location": "Pune",
+    "summary": "Cloud engineer with expertise in AWS infrastructure automation."
+  },
+  {
+    "name": "Zoya Merchant",
+    "email": "zoya.merchant@example.com",
+    "skills": ["Figma", "Wireframing", "UI Design", "Prototyping"],
+    "experience": 3,
+    "education": "B.Des Interaction Design",
+    "current_role": "UI/UX Designer",
+    "location": "Mumbai",
+    "summary": "Creative UI/UX designer building elegant user experiences."
+  },
+  {
+    "name": "Arnav Pillai",
+    "email": "arnav.pillai@example.com",
+    "skills": ["Kotlin", "Android", "Firebase", "REST APIs"],
+    "experience": 2,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Android Developer",
+    "location": "Chennai",
+    "summary": "Android app developer building clean and scalable mobile apps."
+  },
+  {
+    "name": "Tanvi Sethi",
+    "email": "tanvi.sethi@example.com",
+    "skills": ["Python", "Statistics", "Machine Learning", "SQL"],
+    "experience": 2,
+    "education": "B.Sc Data Science",
+    "current_role": "Data Scientist",
+    "location": "Hyderabad",
+    "summary": "Data scientist skilled in statistical modelling and ML pipelines."
+  },
+  {
+    "name": "Kunal Joshi",
+    "email": "kunal.joshi@example.com",
+    "skills": ["Java", "Spring Boot", "MySQL", "Microservices"],
+    "experience": 3,
+    "education": "B.Tech Software Engineering",
+    "current_role": "Backend Developer",
+    "location": "Pune",
+    "summary": "Backend engineer experienced in Java-based microservices."
+  },
+  {
+    "name": "Meera Narang",
+    "email": "meera.narang@example.com",
+    "skills": ["HTML", "CSS", "JavaScript", "React"],
+    "experience": 1,
+    "education": "BCA Web Development",
+    "current_role": "Frontend Developer",
+    "location": "Jaipur",
+    "summary": "Junior frontend developer passionate about UI development."
+  },
+  {
+    "name": "Yashad Bhosale",
+    "email": "yashad.bhosale@example.com",
+    "skills": ["Node.js", "MongoDB", "TypeScript", "Express"],
+    "experience": 2,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Backend Developer",
+    "location": "Mumbai",
+    "summary": "Backend engineer skilled in building high-performance APIs."
+  },
+  {
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "skills": ["Python", "NLP", "HuggingFace", "Transformers"],
+    "experience": 2,
+    "education": "B.Tech AI & Data Science",
+    "current_role": "NLP Engineer",
+    "location": "Bangalore",
+    "summary": "NLP engineer working with transformer models and text pipelines."
+  },
+  {
+    "name": "Aditya Thakur",
+    "email": "aditya.thakur@example.com",
+    "skills": ["DevOps", "CI/CD", "Docker", "Kubernetes"],
+    "experience": 3,
+    "education": "B.Tech DevOps Engineering",
+    "current_role": "DevOps Engineer",
+    "location": "Noida",
+    "summary": "DevOps specialist automating cloud-native workflows."
+  },
+  {
+    "name": "Ritika Solanki",
+    "email": "ritika.solanki@example.com",
+    "skills": ["PowerBI", "SQL", "Excel", "Python"],
+    "experience": 2,
+    "education": "MBA Business Analytics",
+    "current_role": "Business Analyst",
+    "location": "Mumbai",
+    "summary": "Business analyst generating data-driven insights for companies."
+  },
+  {
+    "name": "Shivang Mathur",
+    "email": "shivang.mathur@example.com",
+    "skills": ["C++", "DSA", "System Design", "OOP"],
+    "experience": 1,
+    "education": "B.Tech Computer Science",
+    "current_role": "Software Engineer",
+    "location": "Indore",
+    "summary": "Software engineer with strong DSA and system design basics."
+  },
+  {
+    "name": "Aarohi Singh",
+    "email": "aarohi.singh@example.com",
+    "skills": ["Python", "SQL", "ETL", "Airflow"],
+    "experience": 2,
+    "education": "B.Tech Information Systems",
+    "current_role": "Data Engineer",
+    "location": "Nagpur",
+    "summary": "Data engineer building and managing ETL pipelines."
+  },
+  {
+    "name": "Tanish Gupta",
+    "email": "tanish.gupta@example.com",
+    "skills": ["React", "Redux", "TailwindCSS", "Next.js"],
+    "experience": 1,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Frontend Intern",
+    "location": "Delhi",
+    "summary": "Frontend intern passionate about clean UI and user experience."
+  },
+  {
+    "name": "Simran Ahuja",
+    "email": "simran.ahuja@example.com",
+    "skills": ["Python", "ML", "Data Visualization", "Seaborn"],
+    "experience": 1,
+    "education": "B.Sc Data Science",
+    "current_role": "ML Intern",
+    "location": "Bangalore",
+    "summary": "ML intern working on classification and clustering models."
+  },
+  {
+    "name": "Vedant Kulkarni",
+    "email": "vedant.kulkarni@example.com",
+    "skills": ["Go", "Microservices", "PostgreSQL", "Docker"],
+    "experience": 3,
+    "education": "B.Tech Computer Science",
+    "current_role": "Golang Developer",
+    "location": "Pune",
+    "summary": "Backend engineer specializing in Go-based microservices."
+  },
+  {
+    "name": "Mahima Shetty",
+    "email": "mahima.shetty@example.com",
+    "skills": ["AWS", "DevOps", "Linux", "Kubernetes"],
+    "experience": 2,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Cloud DevOps Engineer",
+    "location": "Hyderabad",
+    "summary": "Cloud DevOps engineer automating cloud deployments."
+  },
+  {
+    "name": "Arjit Singh",
+    "email": "arjit.singh@example.com",
+    "skills": ["Python", "OpenCV", "Deep Learning", "TensorFlow"],
+    "experience": 2,
+    "education": "B.Tech AI Engineering",
+    "current_role": "Computer Vision Engineer",
+    "location": "Mumbai",
+    "summary": "Engineer working on image processing and vision models."
+  },
+  {
+    "name": "Sneha Rao",
+    "email": "sneha.rao@example.com",
+    "skills": ["SQL", "BigQuery", "Data Modelling", "Python"],
+    "experience": 2,
+    "education": "BCA Data Science",
+    "current_role": "Data Analyst",
+    "location": "Chennai",
+    "summary": "Data analyst with experience in large-scale data processing."
+  },
+  {
+    "name": "Farhan Shaikh",
+    "email": "farhan.shaikh@example.com",
+    "skills": ["React Native", "JavaScript", "Expo", "Firebase"],
+    "experience": 1,
+    "education": "B.Tech Computer Engineering",
+    "current_role": "Mobile App Developer",
+    "location": "Pune",
+    "summary": "React Native developer building cross-platform mobile apps."
+  },
+  {
+    "name": "Bhavna Singh",
+    "email": "bhavna.singh@example.com",
+    "skills": ["Python", "Tableau", "SQL", "Statistics"],
+    "experience": 3,
+    "education": "MBA Business Analytics",
+    "current_role": "Data Analyst",
+    "location": "Noida",
+    "summary": "Analyst focused on storytelling using data visualizations."
+  },
+  {
+    "name": "Rudra Pratap",
+    "email": "rudra.pratap@example.com",
+    "skills": ["Java", "Spring Boot", "Hibernate", "JPA"],
+    "experience": 2,
+    "education": "B.Tech Software Engineering",
+    "current_role": "Java Developer",
+    "location": "Bangalore",
+    "summary": "Backend engineer developing Java microservices and APIs."
+  },
+  {
+    "name": "Akruti Mahajan",
+    "email": "akruti.mahajan@example.com",
+    "skills": ["C#", ".NET", "SQL Server", "Azure"],
+    "experience": 3,
+    "education": "B.Tech Computer Engineering",
+    "current_role": ".NET Developer",
+    "location": "Mumbai",
+    "summary": ".NET developer building enterprise-grade backend systems."
+  },
+  {
+    "name": "Rehan Qureshi",
+    "email": "rehan.qureshi@example.com",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+    "experience": 2,
+    "education": "B.Tech Computer Science",
+    "current_role": "Backend Developer",
+    "location": "Hyderabad",
+    "summary": "Backend engineer building scalable API-driven systems."
+  }
+
+
+]
