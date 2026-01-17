@@ -87,7 +87,7 @@ workalign/
 1️⃣ Clone the repository
 bash
 Copy code
-git clone https://github.com/your-username/workalign.git
+git clone https://github.com/SejalMukane/workalign.git
 cd workalign
 2️⃣ Frontend setup
 bash
@@ -135,5 +135,5 @@ The goal is efficient, fair, and data-driven hiring.
 
 👤 Author
 Sejal Mukane
-GitHub: https://github.com/sejalmukane
+GitHub: https://github.com/SejalMukane
 
