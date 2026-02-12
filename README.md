@@ -74,10 +74,17 @@ Backend:
 - FastAPI
 
 AI/ML:
-- Resume Parsing
-- Embedding Similarity Matching
-- Ranking Engine
+- Natural Language Processing (NLP) — Resume & Job Description understanding
 
+- Text Embeddings — Semantic similarity matching between resumes and job roles
+
+- Sentence Transformers — Vector representation of candidate skills & experience
+
+- Cosine Similarity Scoring — Resume ↔ Job alignment calculation
+
+- Rule-Based + AI Hybrid Ranking Engine — Transparent candidate scoring logic
+
+- FastAPI AI Microservice — Model inference & scoring API layer
 ---
 
 ## 📂 Project Structure
