@@ -95,21 +95,23 @@ WORKALIGN/
 
 ## ⚙️ Setup Instructions
 
-Clone repo:
+### Clone Repository
+
+```bash
 git clone https://github.com/SejalMukane/workalign.git
 cd workalign
 
-Frontend:
+## Frontend Setup:
 npm install
 npm run dev
 
-Backend:
+## Backend:
 
-Windows:
+## Windows:
 python -m venv venv
 venv\Scripts\activate
 
-Mac/Linux:
+## Mac/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
@@ -118,6 +120,10 @@ cd backend
 uvicorn main:app --reload
 
 ---
+
+### Then push
+
+```
 
 ## 👩‍💻 Author
 Sejal Mukane
