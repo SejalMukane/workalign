@@ -1,139 +1,207 @@
-# WorkAlign
+WorkAlign — AI Powered Recruitment Platform
 
-**WorkAlign** is an AI-powered recruitment platform designed for **both candidates and recruiters**, enabling smart resume analysis, intelligent job matching, and ranked candidate shortlisting using AI.
+WorkAlign is an AI-driven recruitment platform that helps candidates and recruiters make smarter hiring decisions through resume intelligence, semantic matching, and AI ranking.
 
-The platform bridges the gap between **candidate skills** and **recruiter job requirements** by using AI-driven matching logic instead of manual screening.
+It creates a two-sided intelligent hiring ecosystem where:
 
----
+• Candidates understand their career alignment
+• Recruiters discover the most relevant talent instantly
 
-## 🚀 Overview
+🚀 Product Overview
 
-Hiring today is slow, manual, and error-prone.  
-Candidates struggle to understand where they fit, while recruiters spend hours filtering resumes.
+Hiring today is slow, manual, and error-prone.
 
-**WorkAlign solves this problem by:**
-- Helping **candidates** analyze and improve resume alignment
-- Helping **recruiters** match jobs with the most relevant candidates
-- Providing **AI-based candidate ranking** instead of raw resume dumps
+WorkAlign replaces keyword matching with AI semantic understanding to:
 
-This creates a **two-sided intelligent hiring ecosystem**.
+• Analyze resumes
+• Parse job descriptions
+• Score alignment
+• Rank candidates intelligently
 
----
+🖥️ Product Walkthrough
+🏠 Landing Page
+<p align="center"> <img src="screenshots/Landing_page.png" width="90%"> </p>
 
-## 🧠 Core Features
+The landing page introduces WorkAlign and directs users into the AI hiring workflow.
 
-### 👤 Candidate Side
-- AI-powered resume analysis
-- Skill extraction and role suitability insights
-- Resume–job alignment scoring
-- Transparent feedback (why a role fits or not)
+👤 Role Selection (Candidate / Recruiter)
+<p align="center"> <img src="screenshots/Select_Role.png" width="90%"> </p>
 
-### 🧑‍💼 Recruiter Side
-- AI-powered job matching with candidates
-- Automated candidate ranking based on relevance
-- Reduced manual screening effort
-- Data-driven shortlisting decisions
+Users choose their role to access a personalized dashboard.
 
-### 🤖 AI Capabilities
-- NLP-based resume understanding
-- Job description parsing
-- Skill & experience alignment
-- Ranking logic using AI + rules (extensible)
+📄 Candidate — Resume Analysis
+<p align="center"> <img src="screenshots/Candidate_page.png" width="90%"> </p>
 
----
+AI analyzes the resume and generates:
 
-## 🏗️ Tech Stack
+• Professional profile summary
+• ATS optimization score
+• Strengths & improvement areas
+• Skill fingerprint extraction
 
-### Frontend
-- **Next.js**
-- **Tailwind CSS**
-- Component-based UI
-- Modern responsive design
+💡 Candidate — Strategic Recommendations & Skill Match
+<p align="center"> <img src="screenshots/Candidate_page2.png" width="90%"> </p>
 
-### Backend
-- **Node.js** (API / integration layer)
-- **FastAPI (Python)** for AI services
+Provides actionable insights to improve resume alignment and job readiness.
 
-### AI / ML
-- Resume parsing & text analysis
-- Embedding-based similarity matching
-- Ranking & scoring logic
+🧑‍💼 Recruiter — Talent Discovery Dashboard
+<p align="center"> <img src="screenshots/Recruiter_page.png" width="90%"> </p>
 
-### Data
-- JSON-based candidate data (current)
-- Database integration ready (future)
+Recruiters can input job requirements and get ranked candidate matches instantly.
 
----
+🧠 Core Features
+👤 Candidate Side
 
-## 📂 Project Structure
+• AI Resume Analysis
+• Skill Extraction & Role Fit
+• ATS Optimization Score
+• Transparent Improvement Feedback
 
-```text
-workalign/
-│── api/                # Backend API routes
-│── components/         # Reusable frontend components
-│── data/               # Sample & processed data
-│── employee/           # Candidate-side pages & logic
-│── recruiter/          # Recruiter-side pages & logic
-│── select-role/        # Role selection flow
-│── sign-in/            # Authentication UI
-│── sign-up/            # Registration UI
-│── main.py             # FastAPI backend entry point
-│── candidates.json     # Sample candidate dataset
-│── globals.css         # Global styles
-│── layout.tsx          # App layout
-│── page.tsx            # Landing page
-│── README.md
+🧑‍💼 Recruiter Side
+
+• AI Job → Candidate Matching
+• Intelligent Candidate Ranking
+• Reduced Manual Screening
+• Data-Driven Shortlisting
+
+🤖 AI Capabilities
+
+• NLP-based Resume Understanding
+• Job Description Parsing
+• Embedding Similarity Matching
+• AI + Rule-Based Ranking Engine
+
+🏗️ Tech Stack
+Frontend
+
+• Next.js
+• Tailwind CSS
+• Component-based Architecture
+
+Backend
+
+• Node.js (API / integration layer)
+• FastAPI (Python) for AI services
+
+AI / ML
+
+• Resume parsing & text analysis
+• Embedding-based similarity matching
+• Ranking & scoring logic
+
+Data
+
+• JSON-based candidate data (current)
+• Database integration ready (future)
+
+📂 Project Structure
+WORKALIGN/
+│
+├── app/                     # Next.js App Router
+│   ├── api/                 # API routes (Node integration layer)
+│   ├── components/          # Reusable UI components
+│   ├── data/                # Static/sample data
+│   ├── employee/            # Candidate side pages
+│   ├── recruiter/           # Recruiter side pages
+│   ├── select-role/         # Role selection flow
+│   ├── sign-in/             # Authentication pages
+│   ├── sign-up/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx             # Landing page
+│
+├── backend/                 # FastAPI AI services
+│   ├── main.py              # FastAPI entry point
+│   ├── candidates.json      # Sample candidate dataset
+│   └── __pycache__/
+│
+├── screenshots/             # README images
+├── public/                  # Static assets
+├── lib/                     # Utility functions
+├── tmp/                     # Temporary files
+│
+├── .env.local
+├── .gitignore
+├── eslint.config.mjs
+└── package.json
+
+
 ⚙️ Setup Instructions
 1️⃣ Clone the repository
 bash
 Copy code
 git clone https://github.com/SejalMukane/workalign.git
+git clone https://github.com/SejalMukane/workalign.git
 cd workalign
-2️⃣ Frontend setup
-bash
-Copy code
+
+💻 Frontend Setup (Next.js)
 npm install
 npm run dev
-3️⃣ Backend (FastAPI) setup
-bash
-Copy code
+
+
+App runs on → http://localhost:3000
+
+🧠 Backend Setup (FastAPI AI Services)
+Step 1 — Create virtual environment
+
+Windows
+
+python -m venv venv
+
+
+Mac / Linux
+
+python3 -m venv venv
+
+Step 2 — Activate virtual environment
+
+Windows (PowerShell)
+
+venv\Scripts\activate
+
+
+Mac / Linux
+
+source venv/bin/activate
+
+Step 3 — Install dependencies
 pip install -r requirements.txt
+
+Step 4 — Move to backend folder
+cd backend
+
+Step 5 — Run FastAPI server
 uvicorn main:app --reload
+
+
+Backend runs on → http://127.0.0.1:8000
+
 🧪 Current Status
- Candidate resume analysis
 
- Recruiter job–candidate matching
+✅ Candidate resume analysis
+✅ Recruiter job–candidate matching
+✅ Candidate ranking system
+✅ Dual-role platform
 
- Candidate ranking system
-
- Dual-role platform (candidate + recruiter)
-
- Advanced AI scoring
-
- Database-backed persistence
-
- SaaS deployment
+🔜 Database-backed persistence
+🔜 SaaS deployment
 
 🔮 Future Enhancements
-Multi-role hiring support
 
-SaaS-ready authentication & billing
+• AI job recommendations for candidates
+• Multi-role hiring support
+• SaaS authentication & billing
+• Cloud deployment
 
-AI-based job recommendations for candidates
+🎯 Design Philosophy
 
+WorkAlign follows a Human-Centered AI approach
 
-📌 Design Philosophy
-WorkAlign is built with a balanced AI approach:
+• AI assists decisions, not replaces humans
+• Transparent ranking over black-box outputs
+• Scalable SaaS-ready architecture
 
-AI assists decisions, not replaces humans
+👩‍💻 Author
 
-Transparent ranking over black-box outputs
-
-Scalable architecture for SaaS evolution
-
-The goal is efficient, fair, and data-driven hiring.
-
-👤 Author
 Sejal Mukane
-GitHub: https://github.com/SejalMukane
-
+GitHub → https://github.com/SejalMukane
